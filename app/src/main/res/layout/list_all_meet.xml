@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/swipe"
+        app:leftEdgeSwipeOffset="0dp"
+        app:rightEdgeSwipeOffset="0dp"
+
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:id="@+id/bottom_wraper"
+            android:layout_width="80dp"
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/Delete"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ff0000"
+                android:gravity="center"
+                android:text="ลบ"
+                android:textColor="#fff"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/whiteandgreystork"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:weightSum="3">
+            <TextView
+                android:id="@+id/txt_alldatemeet"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.6"
+                android:gravity="left"
+                android:text="date"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </com.daimajia.swipe.SwipeLayout>

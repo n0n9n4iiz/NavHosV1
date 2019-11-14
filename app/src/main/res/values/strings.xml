@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NavHosV1</string>
+    <string name="currentlocationSpinner" id="currentlocationSpinner">Please Select or Scan</string>
+    <string-array name="namespin">
+        <item>-- เลือกสถานที่ --</item>
+        <item>toilet</item>
+        <item>1401</item>
+        <item>1402</item>
+        <item>1403</item>
+        <item>1404</item>
+        <item>1405</item>
+        <item>1406</item>
+        <item>1407</item>
+        <item>1408</item>
+        <item>visual</item>
+    </string-array>
+</resources>

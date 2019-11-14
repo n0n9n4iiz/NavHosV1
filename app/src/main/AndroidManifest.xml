@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.navhosv1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MyMap" android:label="แผนที่"></activity>
+        <activity
+            android:name=".NormalUser"
+            android:label="หน้าหลัก" />
+        <activity android:name=".ListNoItem" />
+        <activity android:name=".MeetingDateByDate" />
+        <activity android:name=".MapFromList" />
+        <activity
+            android:name=".allMeetingDate"
+            android:label="รายการนัดทั้งหมด" />
+        <activity
+            android:name=".MeetingDate"
+            android:label="รายการนัด" />
+        <activity
+            android:name=".AddnewActivity"
+            android:label="เพิ่มรายการ" />
+        <activity
+            android:name=".History"
+            android:label="ประวัติ" />
+        <activity
+            android:name=".MyActivity"
+            android:label="รายการของฉัน" />
+        <activity
+            android:name=".Home"
+            android:label="หน้าหลัก" />
+        <activity
+            android:name=".SelectCurrentLocation"
+            android:label="เลือกที่อยู่ปัจจุบัน" />
+        <activity
+            android:name=".Splash"
+            android:label="NavHospital">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label=""
+            android:theme="@style/HiddenTitleTheme" />
+    </application>
+
+</manifest>
